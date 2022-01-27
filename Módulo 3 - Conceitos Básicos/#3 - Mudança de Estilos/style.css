@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0e0e;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    height: 1080px;
+}
+
+main {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+}
+
+button {
+    width: fit-content;
+    background: #d30000;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    transition: all .3s ease;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
